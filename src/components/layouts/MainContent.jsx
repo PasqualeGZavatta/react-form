@@ -1,9 +1,11 @@
-import FormNewsLetter from "../FormNewsLetter";
+import CodicePromozionale from "../CodicePromozionale";
+// import FormNewsLetter from "../FormNewsLetter";
 
 export default function MainContent() {
   return (
     <main>
-      <FormNewsLetter />
+      {/* <FormNewsLetter /> */}
+      <CodicePromozionale />
     </main>
   );
 }

@@ -71,6 +71,7 @@ export default function FormNewsLetter() {
             />
           </div>
           <Button
+            testo="Invia"
             clicked={handleSumbit}
             isActive={activeButton}
           />
