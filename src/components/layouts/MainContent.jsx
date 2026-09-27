@@ -1,3 +1,9 @@
+import FormNewsLetter from "../FormNewsLetter";
+
 export default function MainContent() {
-  return <div>MainContent</div>;
+  return (
+    <main>
+      <FormNewsLetter />
+    </main>
+  );
 }
