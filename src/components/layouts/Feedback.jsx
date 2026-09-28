@@ -34,7 +34,7 @@ export default function Feedback() {
                 type="radio"
                 className="form-check-input me-2 border-3 text-black fw-bolder"
                 value={1}
-                onChange={() => humbleSelect(1)}
+                onChange={() => humbleSelect(0)}
               />
               <label
                 htmlFor="Check1"
@@ -49,7 +49,7 @@ export default function Feedback() {
                 type="radio"
                 className="form-check-input me-2 border-3 text-black fw-bolder"
                 value={2}
-                onChange={() => humbleSelect(2)}
+                onChange={() => humbleSelect(1)}
               />
               <label
                 htmlFor="Check2"
@@ -65,7 +65,7 @@ export default function Feedback() {
                 type="radio"
                 className="form-check-input me-2 border-3 text-black fw-bolder"
                 value={3}
-                onChange={() => humbleSelect(3)}
+                onChange={() => humbleSelect(2)}
               />
               <label
                 htmlFor="Check3"
@@ -82,7 +82,7 @@ export default function Feedback() {
                 type="radio"
                 className="form-check-input me-2 border-3 text-black fw-bolder"
                 value={4}
-                onChange={() => humbleSelect(4)}
+                onChange={() => humbleSelect(3)}
               />
               <label
                 htmlFor="Check4"
@@ -100,7 +100,7 @@ export default function Feedback() {
                 type="radio"
                 className="form-check-input me-2 border-3 text-black fw-bolder"
                 value={5}
-                onChange={() => humbleSelect(5)}
+                onChange={() => humbleSelect(4)}
               />
               <label
                 htmlFor="Check5"
