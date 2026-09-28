@@ -1,13 +1,16 @@
 // import CodicePromozionale from "../CodicePromozionale";
 // import FormNewsLetter from "../FormNewsLetter";
-import Feedback from "./Feedback";
+// import Feedback from "../Feedback";
+
+import CalcolaPreventivo from "../CalcolaPreventivo";
 
 export default function MainContent() {
   return (
     <main>
       {/* <FormNewsLetter /> */}
       {/* <CodicePromozionale /> */}
-      <Feedback />
+      {/* <Feedback /> */}
+      <CalcolaPreventivo />
     </main>
   );
 }

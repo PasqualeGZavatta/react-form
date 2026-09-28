@@ -1,9 +1,9 @@
 //raccogli il feedback dell'utente tramite un voto numerico (radio button) e un commento testuale fornendo una risposta personalizzata in base al punteggio ottenuto
 import { Star } from "lucide-react";
-import Button from "../ui/Button";
+import Button from "./ui/Button";
 import { useState } from "react";
-import AlertSuccess from "../ui/AlertSuccess";
-import { valutazioni } from "../../constants/vars";
+import AlertSuccess from "./ui/AlertSuccess";
+import { valutazioni } from "../constants/vars";
 export default function Feedback() {
   const [active, setActive] = useState(false);
   const [selected, setSelected] = useState(0);
