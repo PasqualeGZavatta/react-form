@@ -1,11 +1,11 @@
-import { CircleCheckBig } from "lucide-react";
-export default function AlertSuccess({ visible }) {
+export default function AlertSuccess({ visible, text, icon = "" }) {
   return (
     <>
       <div
         className={`mt-3 alert  ${visible ? "d-block alert-success" : "d-none"}`}>
         <p>
-          Promotion code Verified <CircleCheckBig />
+          {text}
+          {icon}
         </p>
         <p></p>
       </div>

@@ -1,5 +1,5 @@
 // valida un codice promozionale inserito dall'utente mostrando lo sconto applicato o segnalando l'invalidità del codice
-
+import { CircleCheckBig } from "lucide-react";
 import { useState } from "react";
 import { promoCodes } from "../constants/vars";
 import Button from "./ui/Button";
@@ -52,7 +52,11 @@ export default function CodicePromozionale() {
           clicked={humbleCheckCodes}
         />
         <AlertDanger visible={redAlert} />
-        <AlertSuccess visible={greenAlert} />
+        <AlertSuccess
+          visible={greenAlert}
+          icon={<CircleCheckBig />}
+          text={"Promotion code Verified"}
+        />
       </div>
     </>
   );

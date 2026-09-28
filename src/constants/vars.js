@@ -24,3 +24,31 @@ export const promoCodes = [
     value: "5€ di sconto acquistando almeno 2 prodotti",
   },
 ];
+
+export const valutazioni = [
+  {
+    voto: 1,
+    messaggio:
+      "Ci dispiace molto che tu non sia rimasto soddisfatto. Faremo del nostro meglio per migliorare!",
+  },
+  {
+    voto: 2,
+    messaggio:
+      "Grazie per il feedback. Vogliamo fare di più: raccontaci cosa possiamo migliorare.",
+  },
+  {
+    voto: 3,
+    messaggio:
+      "Grazie! Speriamo di offrirti un'esperienza ancora migliore la prossima volta.",
+  },
+  {
+    voto: 4,
+    messaggio:
+      "Siamo felici che ti sia piaciuto il nostro servizio! Grazie per il tuo supporto.",
+  },
+  {
+    voto: 5,
+    messaggio:
+      "Fantastico! Grazie mille per le splendide parole, è un piacere averti tra i nostri utenti!",
+  },
+];
