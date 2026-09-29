@@ -6,3 +6,15 @@
 .sceltaOre {
   width: 200px;
 }
+
+#dati {
+  margin: 2px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card {
+  width: 70%;
+}
