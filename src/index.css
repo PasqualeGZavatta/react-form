@@ -18,3 +18,8 @@
 .card {
   width: 70%;
 }
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+}

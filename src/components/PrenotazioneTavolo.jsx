@@ -33,20 +33,14 @@ export default function PrenotazioneTavolo() {
         [campo]: input,
       },
     ]);
-    // if (isEverythingWritten) {
-    //   setAttivo(true);
-    // }
   }
 
   function handleSumbit(e) {
     e.preventDefault();
     if (!isNotEverythingWritten) {
-      console.log("s");
-
       return;
     } else {
       handleSetVisibility();
-      console.log("p");
     }
   }
 

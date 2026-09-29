@@ -2,7 +2,8 @@
 // import FormNewsLetter from "../FormNewsLetter";
 // import Feedback from "../Feedback";
 // import CalcolaPreventivo from "../CalcolaPreventivo";
-import PrenotazioneTavolo from "../PrenotazioneTavolo";
+// import PrenotazioneTavolo from "../PrenotazioneTavolo";
+import RubricaTelefonica from "../RubricaTelefonica";
 
 export default function MainContent() {
   return (
@@ -11,7 +12,8 @@ export default function MainContent() {
       {/* <CodicePromozionale /> */}
       {/* <Feedback /> */}
       {/* <CalcolaPreventivo /> */}
-      <PrenotazioneTavolo />
+      {/* <PrenotazioneTavolo /> */}
+      <RubricaTelefonica />
     </main>
   );
 }
