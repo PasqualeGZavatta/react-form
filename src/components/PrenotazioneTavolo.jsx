@@ -1,6 +1,7 @@
 //registra i dati di prenotazione del tavolo confermando all'utente i dettagli inseriti (nome, n. ospiti e data) in una scheda di riepilogo
 
 import { useState } from "react";
+import Button from "./ui/Button";
 
 export default function PrenotazioneTavolo() {
   //   const [attivo, setAttivo] = useState(false);
@@ -36,6 +37,8 @@ export default function PrenotazioneTavolo() {
   }
 
   function handleSumbit(e) {
+    console.log("submit fatto");
+
     e.preventDefault();
     if (!isNotEverythingWritten) {
       return;
@@ -140,7 +143,8 @@ export default function PrenotazioneTavolo() {
           </div>
           <hr />
           {/**Bottone sumbit */}
-          <button className="btn btn-primary  ">Prenota</button>
+          {/* <button className="btn btn-primary  ">Prenota</button> */}
+          <Button />
         </form>
         {/**CARD */}
         <div
